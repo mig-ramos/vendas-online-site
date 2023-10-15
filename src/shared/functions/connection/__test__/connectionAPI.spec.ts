@@ -1,14 +1,14 @@
 import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
 
-import { URL_AUTH } from '../../constants/urls';
+import { URL_AUTH } from '../../../constants/urls';
 import {
   connectionAPIDelete,
   connectionAPIGet,
   connectionAPIPatch,
   connectionAPIPost,
   connectionAPIPut,
-} from '../connection/connectionAPI';
+} from '../connectionAPI';
 
 const mockAxios = new MockAdapter(axios);
 

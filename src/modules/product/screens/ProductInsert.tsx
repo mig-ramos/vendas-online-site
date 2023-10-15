@@ -65,7 +65,6 @@ const ProductInsert = () => {
             />
             <Input
               data-testid={ProductInsertTestIdEnum.PRODUCT_INPUT_IMAGE}
-              addonBefore="cm"
               onChange={(event) => onChangeInput(event, 'image')}
               value={product.image}
               margin="0px 0px 16px 0px"
